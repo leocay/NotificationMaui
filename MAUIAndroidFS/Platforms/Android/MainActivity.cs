@@ -32,9 +32,10 @@ public class MainActivity : MauiAppCompatActivity
         {
             // Example: checking for a specific action
             var action = intent.Action;
-            if (action == "USER_TAPPED_NOTIFIACTION")
+            if (action == "ACTION_NEXT")
             {
                 // Handle the specific action
+                Console.WriteLine("hahaha");
             }
         }
     }
